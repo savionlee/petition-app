@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 15, 2014, 6:04:05 PM
+    Author     : Savion
+*/
+
+* {
+    background-color: #d1d2ff;
+    
+}
+
+.TitleBar {
+    float: top;
+    position:static;
+}
+#Title {
+    font-size: 36px;
+    font-family: monospace;
+    border-bottom: 3px solid black;
+    float:left;
+}
+
+#LoginButton {
+    font-size: 24px;
+    border-radius: 5px;
+    float:right;
+    margin: 0px 20px 0px 0px;
+}
+
+.Body {
+    position: static;
+}
+#Intro {
+    padding: 20px 5px 5px 30px;
+    font-family: sans-serif;
+}
+
+#Petitions {
+    position: static;
+    background-color: #cccccc;
+    width: 75%;
+    margin: 0 auto;
+}
