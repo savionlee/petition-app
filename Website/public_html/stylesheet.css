@@ -14,25 +14,34 @@ and open the template in the editor.
 }
 
 .TitleBar {
-    float: top;
+
     position:static;
+    padding-bottom: 5%;
 }
 #Title {
+    display:inline-block;
     font-size: 36px;
     font-family: monospace;
     border-bottom: 3px solid black;
     float:left;
 }
 
-#LoginButton {
-    font-size: 24px;
-    border-radius: 5px;
+#LoginButtonHolder {
+    display:inline-block;
     float:right;
-    margin: 0px 20px 0px 0px;
+    
+}
+
+#LoginButton {
+    border-radius: 10px;
+    font-size: 24px;
+    background-color:#3333ff;
+    color:white;
+    
 }
 
 .Body {
-    position: static;
+    
 }
 #Intro {
     padding: 20px 5px 5px 30px;
